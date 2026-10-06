@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js"></script>
+</head>
+<body>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="thumbnails">
+        <img class="preview" 
+             alt="Laptop Coding Screen" 
+             src="img/ltcs.avif" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="University Campus Building" 
+             src="img/ucb.jpg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Graduation Cap Milestone" 
+             src="img/gcm.jpeg" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+    </div>
+
+</body>
+</html>
